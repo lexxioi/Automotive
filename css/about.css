@@ -1,11 +1,11 @@
 @font-face {
     font-family: Montserrat;
-    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: PT Serif;
-    src: url(/fonts/PTSerif-Regular.ttf);
+    src: url(../fonts/PTSerif-Regular.ttf);
 }
 
 * {
@@ -23,7 +23,7 @@
 
 header {
    
-    background-image: url(/img/Rectangle.png); 
+    background-image: url(../img/Rectangle.png); 
     /* background-color: rgba(198, 35, 20, 1); */
 }
 

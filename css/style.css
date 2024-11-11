@@ -1,11 +1,11 @@
 @font-face {
     font-family: Montserrat;
-    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: PT Serif;
-    src: url(fonts/PTSerif-Regular.ttf);
+    src: url(/fonts/PTSerif-Regular.ttf);
 }
 
 * {
@@ -16,20 +16,26 @@
     width: 1440px;
     margin: 0 auto;
 }
+
+/* header */
+
 .header_container {
     width: 1060px;
     margin: 0 auto;
 }
 
 header {
-    background-image: url(img/Rectangle.png);
+    
+    background-image: url(/img/Rectangle.png);
+    background-color: rgba(198, 35, 20, 1);
 }
 
 .menu_inner {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .logo {
     width: 292.98px;
@@ -42,15 +48,23 @@ header {
     padding: 0;
     margin: 0;
 }
-.menu li a {
+.menu li{
+    
+    text-align: center;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
-    line-height: 21.94px; 
-    text-transform: uppercase;
-    text-decoration: none;
+    
     padding: 6px 15px;
     transition: 0.5s;
+    color: #fff;
+}
+
+.menu li a {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .menu>li:hover {
@@ -63,7 +77,6 @@ header {
 .menu>li>a {
     text-decoration: none;
     color: #fff;
-    padding: 20px 20px;
 }
 .info_title {
     font-family: Montserrat;

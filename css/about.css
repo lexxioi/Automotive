@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PT Serif;
+    src: url(/fonts/PTSerif-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header_container {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+header {
+   
+    background-image: url(/img/Rectangle.png); 
+    background-color: rgba(198, 35, 20, 1);
+}
+
+.menu_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo {
+    width: 292.98px;
+    height: 90.56px;
+
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    
+    padding: 6px 15px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.menu li a {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu>li:hover {
+    text-align: center;
+    background-color: rgba(19, 14, 39, 1);
+    border-radius: 5px;
+}
+
+
+.menu>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main */
+
+main {
+    width: 1060px;
+    margin: 0 auto;
+}
+.main_wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.car1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.car2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.car {
+    width: 300px;
+    border-radius: 10%;
+}
+.car_text1 {
+    font-family: PT Serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 40px;
+}
+.car_text2 {
+    font-family: PT Serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-right: 40px;
+}
+
+
+/* footer  */
+footer {
+    background-color: rgba(19, 14, 39, 1);
+}
+.footer_container {
+    width: 1060px;
+    margin: 0 auto;
+    
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.text_footer {
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+
+}
+
+
+.footer_img {
+    width: 217.84px;
+    height: 68.4px;
+}
